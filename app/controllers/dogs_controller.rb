@@ -4,6 +4,7 @@ class DogsController < ApplicationController
   # GET /dogs or /dogs.json
   def index
     @dogs = Dog.all
+    console.log("hi, Zoe!")
   end
 
   # GET /dogs/1 or /dogs/1.json
