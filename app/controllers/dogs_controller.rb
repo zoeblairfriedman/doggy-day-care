@@ -14,6 +14,7 @@ class DogsController < ApplicationController
   # GET /dogs/new
   def new
     @dog = Dog.new
+    console.log("hi, Zoe!")
   end
 
   # GET /dogs/1/edit
